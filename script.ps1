@@ -1,4 +1,4 @@
-﻿$server = @("google.com","8.8.8.8","www.elpai.es")
+﻿$server = @("bing.com","yahoo.com","1.1.1.1")
 foreach ($server in $server){
    Test-Connection -ComputerName $server -Count 2
 }
